@@ -4,7 +4,8 @@
  */
 
 // 1. API Configuration (Empty as per environment requirements)
-const apiKey = CONFIG.GEMINI_API_KEY;
+GEMINI_API_KEY = CONFIG.GEMINI_API_KEY || '';
+const apiKey = GEMINI_API_KEY;
 
 // 2. Data Definitions
 const plotSteps = [
